@@ -1,0 +1,2009 @@
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "35",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "9",
+    "Total de funcionários [strHint008]" : "50",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "DINORA PEREIRA RAMOS BRITO PROFESSORA",
+  "codigo" : "35901532",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "JOAO RODOLFO CASTELLI, 157, AVENIDA",
+    "bairro" : "PUTIM",
+    "cep" : "12228-000",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1197",
+    "Matrículas em tempo integral [strHint002]" : "115",
+    "Turmas [strHint003]" : "36",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "12",
+    "Docentes" : "45",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "93",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 5",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "NILCE CONCEICAO DE LIMA PROFESSORA",
+  "codigo" : "35922857",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "RUA NATALIO ANGELO STABELI, 84, AVENIDA",
+    "bairro" : "JARDIM SAO LEOPOLDO",
+    "cep" : "12228-190",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "871",
+    "Matrículas em tempo integral [strHint002]" : "45",
+    "Turmas [strHint003]" : "24",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "3",
+    "Salas de aula [strHint006]" : "10",
+    "Docentes" : "41",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "78",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "ARMANDO D OLIVEIRA COBRA",
+  "codigo" : "35013730",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "RUA 13 DE MAIO, 295, PRACA",
+    "bairro" : "DISTRITO SAO FRANCISCO XAVIER",
+    "cep" : "12249-000",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "192",
+    "Matrículas em tempo integral [strHint002]" : "3",
+    "Turmas [strHint003]" : "7",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "7",
+    "Docentes" : "12",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "20",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "--",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Ensino Médio; EJA"
+  }
+}, {
+  "nome" : "ALVARO GONCALVES PROF EMEF",
+  "codigo" : "35241982",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "RUA ALBERTINA PEREIRA LIMA, 151, RUA",
+    "bairro" : "CAMPO DOS ALEMAES",
+    "cep" : "12239-740",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "801",
+    "Matrículas em tempo integral [strHint002]" : "317",
+    "Turmas [strHint003]" : "27",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "24",
+    "Docentes" : "34",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "28",
+    "Total de funcionários [strHint008]" : "76",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL PINHEIRINHO DOS PALMARES",
+  "codigo" : "35004243",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "TRES, S/N, CONJUNTO HABITACIONA",
+    "bairro" : "PINHERINHO DOS PALMARES",
+    "cep" : "12228-256",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1046",
+    "Matrículas em tempo integral [strHint002]" : "73",
+    "Turmas [strHint003]" : "33",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "39",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "3",
+    "Total de funcionários [strHint008]" : "42",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "--",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "SESI 182 CENTRO EDUCACIONAL",
+  "codigo" : "35110942",
+  "depAdministrativa" : "Privada",
+  "endereco" : {
+    "endereco" : "AVENIDA CIDADE JARDIM, 4389, AVENIDA",
+    "bairro" : "BOSQUE DOS EUCALIPTOS",
+    "cep" : "12232-000",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "742",
+    "Matrículas em tempo integral [strHint002]" : "291",
+    "Turmas [strHint003]" : "24",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "24",
+    "Docentes" : "28",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "48",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "YOSHIYA TAKAOKA",
+  "codigo" : "35013648",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "JOSE BONIFACIO DE ARANTES, 272, RUA",
+    "bairro" : "VILA PAIVA",
+    "cep" : "12213-350",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "564",
+    "Matrículas em tempo integral [strHint002]" : "40",
+    "Turmas [strHint003]" : "20",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "10",
+    "Docentes" : "27",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "1",
+    "Total de funcionários [strHint008]" : "50",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "PEDRO DE ALCANTARA DOM EMEF",
+  "codigo" : "35062492",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "ADILSON JOSE DA CRUZ, 7581, AVENIDA",
+    "bairro" : "CONJUNTO RESIDENCIAL DOM PEDRO I",
+    "cep" : "12232-750",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "864",
+    "Matrículas em tempo integral [strHint002]" : "264",
+    "Turmas [strHint003]" : "33",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "26",
+    "Docentes" : "42",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "23",
+    "Total de funcionários [strHint008]" : "72",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 5",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; EJA"
+  }
+}, {
+  "nome" : "PEDRO MASCARENHAS DOUTOR",
+  "codigo" : "35013596",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "AMBROSIO MOLINA, 306, RUA",
+    "bairro" : "EUGENIO DE MELLO",
+    "cep" : "12247-000",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "753",
+    "Matrículas em tempo integral [strHint002]" : "26",
+    "Turmas [strHint003]" : "29",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "3",
+    "Salas de aula [strHint006]" : "13",
+    "Docentes" : "40",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "120",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 6",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio; EJA"
+  }
+}, {
+  "nome" : "MARIANA TEIXEIRA CORNELIO PROFA EMEF",
+  "codigo" : "35271457",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "BENEDITO PEREIRA LIMA, 200, RUA",
+    "bairro" : "JARDIM TELESPARK",
+    "cep" : "12212-700",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "959",
+    "Matrículas em tempo integral [strHint002]" : "33",
+    "Turmas [strHint003]" : "31",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "16",
+    "Docentes" : "39",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "6",
+    "Total de funcionários [strHint008]" : "54",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "MAURICIO ANISSE CURY DOUTOR",
+  "codigo" : "35013791",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "AVENIDA ENGENHEIRO FRANCISCO JOSE LONGO, 832, AVENIDA",
+    "bairro" : "JARDIM SAO DIMAS",
+    "cep" : "12245-001",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "278",
+    "Matrículas em tempo integral [strHint002]" : "26",
+    "Turmas [strHint003]" : "11",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "10",
+    "Docentes" : "15",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "2",
+    "Total de funcionários [strHint008]" : "38",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "VERA BABO DE OLIVEIRA PROFA EMEF",
+  "codigo" : "35069048",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "ALTO DO RIO DOCE, 801, AVENIDA",
+    "bairro" : "JARDIM ALTOS DE SANTANA",
+    "cep" : "12214-010",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "701",
+    "Matrículas em tempo integral [strHint002]" : "148",
+    "Turmas [strHint003]" : "23",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "14",
+    "Docentes" : "30",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "20",
+    "Total de funcionários [strHint008]" : "55",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "INSPIRE COLEGIO",
+  "codigo" : "35499067",
+  "depAdministrativa" : "Privada",
+  "endereco" : {
+    "endereco" : "ROD PRESIDENTE DUTRA, 0, KM 145",
+    "bairro" : "VILA TATETUBA",
+    "cep" : "12220-611",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "635",
+    "Matrículas em tempo integral [strHint002]" : "0",
+    "Turmas [strHint003]" : "31",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "20",
+    "Docentes" : "45",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "96",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 6",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Pré-escola; Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "SILVANA MARIA RIBEIRO DE ALMEIDA PROFA EMEF",
+  "codigo" : "35281682",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "QUATRO DE MARCO, 10, RUA",
+    "bairro" : "JARDIM DAS CEREJEIRAS",
+    "cep" : "12225-570",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "851",
+    "Matrículas em tempo integral [strHint002]" : "44",
+    "Turmas [strHint003]" : "27",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "17",
+    "Docentes" : "34",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "7",
+    "Total de funcionários [strHint008]" : "54",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "MARIA APARECIDA SANTOS RONCONI PROFA EMEF",
+  "codigo" : "35436987",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "ANA GONCALVES DA CUNHA, 400, RUA",
+    "bairro" : "MONTE CASTELO",
+    "cep" : "12215-390",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "746",
+    "Matrículas em tempo integral [strHint002]" : "71",
+    "Turmas [strHint003]" : "25",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "31",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "25",
+    "Total de funcionários [strHint008]" : "75",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "RUI RODRIGUES DORIA DOUTOR",
+  "codigo" : "35013924",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "OLIVO GOMES, 329, RUA",
+    "bairro" : "VILA ALEXANDRINA",
+    "cep" : "12211-290",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "981",
+    "Matrículas em tempo integral [strHint002]" : "123",
+    "Turmas [strHint003]" : "28",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "3",
+    "Salas de aula [strHint006]" : "10",
+    "Docentes" : "47",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "8",
+    "Total de funcionários [strHint008]" : "69",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "JOAO MOROTTI FILHO",
+  "codigo" : "35915026",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "IRENE TOLEDO DE SOUZA GOMES, SN, RUA",
+    "bairro" : "BOM RETIRO",
+    "cep" : "12226-280",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "503",
+    "Matrículas em tempo integral [strHint002]" : "25",
+    "Turmas [strHint003]" : "16",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "8",
+    "Docentes" : "22",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "30",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "EDEWALDO FREITAS GAIA SANT ANA PROFESSOR",
+  "codigo" : "35013493",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "ROSARIO, 540, RUA",
+    "bairro" : "JARDIM AMERICA",
+    "cep" : "12235-420",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "388",
+    "Matrículas em tempo integral [strHint002]" : "6",
+    "Turmas [strHint003]" : "12",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "6",
+    "Docentes" : "14",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "26",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "JOSE ANTONIO COUTINHO CONDINO PROFESSOR",
+  "codigo" : "35912712",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "A, 1477, RUA",
+    "bairro" : "JARDIM SANTA HERMINIA",
+    "cep" : "12226-838",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "325",
+    "Matrículas em tempo integral [strHint002]" : "4",
+    "Turmas [strHint003]" : "12",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "12",
+    "Docentes" : "14",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "26",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 3",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "ELMANO FERREIRA VELOSO",
+  "codigo" : "35035385",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "MONTE AZUL, 795, RUA",
+    "bairro" : "CHACARAS REUNIDAS",
+    "cep" : "12238-350",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "501",
+    "Matrículas em tempo integral [strHint002]" : "29",
+    "Turmas [strHint003]" : "19",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "12",
+    "Docentes" : "34",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "43",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 3",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "SANT ANA DO PARAIBA",
+  "codigo" : "35013651",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "GUARANI, 130, RUA",
+    "bairro" : "SANTANA",
+    "cep" : "12211-740",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "562",
+    "Matrículas em tempo integral [strHint002]" : "8",
+    "Turmas [strHint003]" : "22",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "12",
+    "Docentes" : "30",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "55",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "EUNICE CORDEIRO DOS SANTOS RODRIGUES PROFESSORA",
+  "codigo" : "35013511",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "RUA MAJOR MANOEL FERNANDES NETTO, 370, RUA",
+    "bairro" : "VILA SAO GERALDO",
+    "cep" : "12213-270",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "522",
+    "Matrículas em tempo integral [strHint002]" : "16",
+    "Turmas [strHint003]" : "18",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "10",
+    "Docentes" : "23",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "3",
+    "Total de funcionários [strHint008]" : "44",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "LUCIA PEREIRA RODRIGUES PROFA EMEF",
+  "codigo" : "35092265",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "PRACA IV CENTENARIO, 401, RUA",
+    "bairro" : "JARDIM SANTA FE",
+    "cep" : "12228-110",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "910",
+    "Matrículas em tempo integral [strHint002]" : "52",
+    "Turmas [strHint003]" : "27",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "17",
+    "Docentes" : "37",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "2",
+    "Total de funcionários [strHint008]" : "40",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "LUIZ LEITE PROF EMEF",
+  "codigo" : "35271287",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "BENEDITO ANDRADE, 5, RUA",
+    "bairro" : "CONJUNTO RESIDENCIAL GALO BRANCO",
+    "cep" : "12247-540",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "703",
+    "Matrículas em tempo integral [strHint002]" : "32",
+    "Turmas [strHint003]" : "24",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "28",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "13",
+    "Total de funcionários [strHint008]" : "58",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "SONIA MARIA PEREIRA DA SILVA PROFA EMEF",
+  "codigo" : "35271305",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "RUA DOS ALFAIATES, 321, RUA",
+    "bairro" : "PARQUE NOVO HORIZONTE",
+    "cep" : "12225-740",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "866",
+    "Matrículas em tempo integral [strHint002]" : "49",
+    "Turmas [strHint003]" : "28",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "34",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "10",
+    "Total de funcionários [strHint008]" : "59",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "LEONOR PEREIRA NUNES GALVAO PROFA EMEF",
+  "codigo" : "35069085",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "JOSE MOLINA, 150, RUA",
+    "bairro" : "VILA INDUSTRIAL",
+    "cep" : "12220-300",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "662",
+    "Matrículas em tempo integral [strHint002]" : "11",
+    "Turmas [strHint003]" : "22",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "14",
+    "Docentes" : "30",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "4",
+    "Total de funcionários [strHint008]" : "46",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "PEDRO MAZZA PROFESSOR",
+  "codigo" : "35013584",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "ODETE MIMESSI, 160, RUA",
+    "bairro" : "JARDIM DA GRANJA",
+    "cep" : "12227-200",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "700",
+    "Matrículas em tempo integral [strHint002]" : "70",
+    "Turmas [strHint003]" : "23",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "14",
+    "Docentes" : "27",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "1",
+    "Total de funcionários [strHint008]" : "52",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "SEBASTIANA COBRA PROFA EMEF",
+  "codigo" : "35056819",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "RUA DOS AMORESPERFEITOS, 95, RUA",
+    "bairro" : "JARDIM DAS INDUSTRIAS",
+    "cep" : "12240-150",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "845",
+    "Matrículas em tempo integral [strHint002]" : "28",
+    "Turmas [strHint003]" : "28",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "37",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "13",
+    "Total de funcionários [strHint008]" : "60",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "HOMERA DA SILVA BRAGA PROFA EMEF",
+  "codigo" : "35359981",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "JOAQUIM DE PAULA, 670, RUA",
+    "bairro" : "CIDADE MORUMBI",
+    "cep" : "12236-450",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "948",
+    "Matrículas em tempo integral [strHint002]" : "36",
+    "Turmas [strHint003]" : "31",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "40",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "10",
+    "Total de funcionários [strHint008]" : "65",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "IRACEMA RIBEIRO DE FREITAS",
+  "codigo" : "35047961",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "MURIAE, 7, PRACA",
+    "bairro" : "VILA IRACEMA",
+    "cep" : "12228-151",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "404",
+    "Matrículas em tempo integral [strHint002]" : "4",
+    "Turmas [strHint003]" : "13",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "6",
+    "Docentes" : "16",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "2",
+    "Total de funcionários [strHint008]" : "28",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "FRANCISCO JOAO LEME",
+  "codigo" : "35013638",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "CONSTITUINTE, 37, RUA",
+    "bairro" : "ALTO DA PONTE",
+    "cep" : "12212-380",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "502",
+    "Matrículas em tempo integral [strHint002]" : "47",
+    "Turmas [strHint003]" : "19",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "10",
+    "Docentes" : "25",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "47",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "VERA LUCIA CARNEVALLI BARRETO PROFA EMEF",
+  "codigo" : "35086022",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "OLIVO GOMES, 520, AVENIDA",
+    "bairro" : "SANTANA",
+    "cep" : "12211-115",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1013",
+    "Matrículas em tempo integral [strHint002]" : "24",
+    "Turmas [strHint003]" : "34",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "19",
+    "Docentes" : "48",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "7",
+    "Total de funcionários [strHint008]" : "75",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "ILZA IRMA MOELLER COPPIO PROFESSORA",
+  "codigo" : "35013523",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "JAGUARI, 362, RUA",
+    "bairro" : "VILA SINHA",
+    "cep" : "12212-659",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "309",
+    "Matrículas em tempo integral [strHint002]" : "309",
+    "Turmas [strHint003]" : "10",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "19",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "29",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Ensino Médio"
+  }
+}, {
+  "nome" : "ANTONIO PALMA SOBRINHO PROF EMEF",
+  "codigo" : "35078153",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "ANGELO SCARPEL, 163, RUA",
+    "bairro" : "PARQUE NOVA ESPERANCA",
+    "cep" : "12226-170",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1052",
+    "Matrículas em tempo integral [strHint002]" : "44",
+    "Turmas [strHint003]" : "34",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "44",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "15",
+    "Total de funcionários [strHint008]" : "75",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 6",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; EJA"
+  }
+}, {
+  "nome" : "JUVENAL MACHADO DE ARAUJO PROFESSOR",
+  "codigo" : "35035397",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "VICENTE CELESTINO, 150, RUA",
+    "bairro" : "VILA TESOURO",
+    "cep" : "12221-540",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1516",
+    "Matrículas em tempo integral [strHint002]" : "21",
+    "Turmas [strHint003]" : "45",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "3",
+    "Salas de aula [strHint006]" : "20",
+    "Docentes" : "70",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "2",
+    "Total de funcionários [strHint008]" : "119",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 5",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "HENRIQUETA COSTA PORTO PROFESSORA",
+  "codigo" : "35047946",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "SANTAREM, 970, RUA",
+    "bairro" : "PARQUE INDUSTRIAL",
+    "cep" : "12235-550",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "375",
+    "Matrículas em tempo integral [strHint002]" : "6",
+    "Turmas [strHint003]" : "12",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "6",
+    "Docentes" : "18",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "33",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "OLIMPIO CATAO",
+  "codigo" : "35013626",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "PRACA AFONSO PENA, SN, PRACA",
+    "bairro" : "CENTRO",
+    "cep" : "12210-090",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "228",
+    "Matrículas em tempo integral [strHint002]" : "228",
+    "Turmas [strHint003]" : "10",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "11",
+    "Docentes" : "16",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "33",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "MARIA DE MELO PROFA EMEF",
+  "codigo" : "35056844",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "INGA, 40, RUA",
+    "bairro" : "PARQUE INDUSTRIAL",
+    "cep" : "12235-741",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "747",
+    "Matrículas em tempo integral [strHint002]" : "39",
+    "Turmas [strHint003]" : "25",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "13",
+    "Docentes" : "32",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "9",
+    "Total de funcionários [strHint008]" : "49",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "NORMA DE CONTI SIMAO PROFA EMEF",
+  "codigo" : "35281694",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "JOAO ADAO, 349, RUA",
+    "bairro" : "CAMPO DOS ALEMAES",
+    "cep" : "12236-811",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1131",
+    "Matrículas em tempo integral [strHint002]" : "51",
+    "Turmas [strHint003]" : "37",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "21",
+    "Docentes" : "49",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "11",
+    "Total de funcionários [strHint008]" : "65",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 6",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; EJA"
+  }
+}, {
+  "nome" : "MARIA DOLORES VERISSIMO MADUREIRA PROFESSORA",
+  "codigo" : "35035361",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "SERRA DO RONCADOR, 310, RUA",
+    "bairro" : "JARDIM ANHEMBI",
+    "cep" : "12235-240",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "274",
+    "Matrículas em tempo integral [strHint002]" : "274",
+    "Turmas [strHint003]" : "8",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "8",
+    "Docentes" : "17",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "28",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Ensino Médio"
+  }
+}, {
+  "nome" : "JOSE FREDERICO MARQUES PROFESSOR",
+  "codigo" : "35919755",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "NELSON JOSE DE CARVALHO FERREIRA, 91, RUA",
+    "bairro" : "CAMPO DOS ALEMAES",
+    "cep" : "12239-170",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "618",
+    "Matrículas em tempo integral [strHint002]" : "35",
+    "Turmas [strHint003]" : "29",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "16",
+    "Docentes" : "37",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "61",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 3",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "EMBRAER JUAREZ WANDERLEY COLEGIO",
+  "codigo" : "35805555",
+  "depAdministrativa" : "Privada",
+  "endereco" : {
+    "endereco" : "RUA FRANCISCO VITOR CESAR LEITE, 9800, RUA",
+    "bairro" : "EUGENIO DE MELLO",
+    "cep" : "12247-611",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "604",
+    "Matrículas em tempo integral [strHint002]" : "604",
+    "Turmas [strHint003]" : "15",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "17",
+    "Docentes" : "33",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "56",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Ensino Médio"
+  }
+}, {
+  "nome" : "MOACYR BENEDICTO DE SOUZA PROF EMEF",
+  "codigo" : "35092241",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "MARIA MARTINS OTTOBONI, 100, RUA",
+    "bairro" : "CAMPO DOS ALEMAES",
+    "cep" : "12239-420",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "847",
+    "Matrículas em tempo integral [strHint002]" : "299",
+    "Turmas [strHint003]" : "28",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "23",
+    "Docentes" : "33",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "30",
+    "Total de funcionários [strHint008]" : "66",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "ANA HERONDINA SOARES SCHYCHOF PROFESSORA",
+  "codigo" : "35917448",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "CIDADE DE WASHINGTON, 163, RUA",
+    "bairro" : "CIDADE VISTA VERDE",
+    "cep" : "12223-600",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "757",
+    "Matrículas em tempo integral [strHint002]" : "12",
+    "Turmas [strHint003]" : "28",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "42",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "69",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "MARIA APARECIDA VERISSIMO MADUREIRA RAMOS PROFESSORA",
+  "codigo" : "35905100",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "CARVALHOS, 30, RUA",
+    "bairro" : "JARDIM DAS INDUSTRIAS",
+    "cep" : "12241-260",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "742",
+    "Matrículas em tempo integral [strHint002]" : "17",
+    "Turmas [strHint003]" : "25",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "3",
+    "Salas de aula [strHint006]" : "12",
+    "Docentes" : "37",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "1",
+    "Total de funcionários [strHint008]" : "61",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "POSSIDONIO JOSE DE FREITAS EMEF",
+  "codigo" : "35069097",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "FELICIO JABBUR NASSER, 935, RUA",
+    "bairro" : "CONJUNTO RESIDENCIAL GALO BRANCO",
+    "cep" : "12247-530",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "712",
+    "Matrículas em tempo integral [strHint002]" : "36",
+    "Turmas [strHint003]" : "24",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "18",
+    "Docentes" : "30",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "7",
+    "Total de funcionários [strHint008]" : "42",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "EUCLIDES BUENO MIRAGAIA",
+  "codigo" : "35013602",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "CASIMIRO MONTENEGRO FILHO MARECHALDOAR, 470, RODOVIA",
+    "bairro" : "VILA SAO BENTO",
+    "cep" : "12231-590",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "460",
+    "Matrículas em tempo integral [strHint002]" : "21",
+    "Turmas [strHint003]" : "19",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "12",
+    "Docentes" : "31",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "68",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 3",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "AQUARIUS UNIVAP COLEGIO",
+  "codigo" : "35808246",
+  "depAdministrativa" : "Privada",
+  "endereco" : {
+    "endereco" : "RUA DOUTOR TERTULIANO DELPHIM JUNIOR, 181, PRACA",
+    "bairro" : "PARQUE RESIDENCIAL AQUARIUS",
+    "cep" : "12246-080",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "188",
+    "Matrículas em tempo integral [strHint002]" : "19",
+    "Turmas [strHint003]" : "6",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "13",
+    "Docentes" : "29",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "45",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Ensino Médio"
+  }
+}, {
+  "nome" : "MARCIA HELENA BARBOSA LINO PROFESSORA",
+  "codigo" : "35922018",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "JOSE RODRIGUES SALGADO, 150, RUA",
+    "bairro" : "CAMPO DOS ALEMAES",
+    "cep" : "12239-670",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "268",
+    "Matrículas em tempo integral [strHint002]" : "268",
+    "Turmas [strHint003]" : "10",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "12",
+    "Docentes" : "18",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "34",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "--",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Ensino Médio"
+  }
+}, {
+  "nome" : "ILDETE MENDONCA BARBOSA PROFA EMEF",
+  "codigo" : "35241994",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "MIGUEL JANSEN FILHO DOUTOR, 80, RUA",
+    "bairro" : "RESIDENCIAL UNIAO",
+    "cep" : "12239-024",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "974",
+    "Matrículas em tempo integral [strHint002]" : "37",
+    "Turmas [strHint003]" : "32",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "18",
+    "Docentes" : "43",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "9",
+    "Total de funcionários [strHint008]" : "60",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "GERALDO DE ALMEIDA PROF EMEF",
+  "codigo" : "35227912",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "RUA CAMOMILA, 100, RUA",
+    "bairro" : "CHACARAS POUSADA DO VALE",
+    "cep" : "12226-763",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1149",
+    "Matrículas em tempo integral [strHint002]" : "127",
+    "Turmas [strHint003]" : "34",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "17",
+    "Docentes" : "42",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "2",
+    "Total de funcionários [strHint008]" : "62",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "FRANCISCO LOPES DE AZEVEDO PROFESSOR",
+  "codigo" : "35039640",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "ANTARES, 330, RUA",
+    "bairro" : "JARDIM SATELITE",
+    "cep" : "12230-250",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "859",
+    "Matrículas em tempo integral [strHint002]" : "20",
+    "Turmas [strHint003]" : "27",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "14",
+    "Docentes" : "39",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "70",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "ETEC PROFESSORA ILZA NASCIMENTO PINTUS",
+  "codigo" : "35406284",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "SALMAO, 570, AVENIDA",
+    "bairro" : "PARQUE RESIDENCIAL AQUARIUS",
+    "cep" : "12246-260",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1339",
+    "Matrículas em tempo integral [strHint002]" : "345",
+    "Turmas [strHint003]" : "40",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "3",
+    "Salas de aula [strHint006]" : "25",
+    "Docentes" : "71",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "107",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Ensino Médio; Educação Profissional"
+  }
+}, {
+  "nome" : "SUELY ANTUNES DE MELLO PROFESSORA",
+  "codigo" : "35013894",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "SIQUEIRA CAMPOS, 845, RUA",
+    "bairro" : "CENTRO",
+    "cep" : "12210-250",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "299",
+    "Matrículas em tempo integral [strHint002]" : "299",
+    "Turmas [strHint003]" : "10",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "10",
+    "Docentes" : "22",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "37",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 3",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 1",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "ANA CANDIDA DE BARROS MOLINA PROFESSORA",
+  "codigo" : "35013572",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "SAIGIRO NAKAMURA, 300, PREDIO",
+    "bairro" : "VILA INDUSTRIAL",
+    "cep" : "12220-280",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1078",
+    "Matrículas em tempo integral [strHint002]" : "23",
+    "Turmas [strHint003]" : "35",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "3",
+    "Salas de aula [strHint006]" : "17",
+    "Docentes" : "61",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "117",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 6",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Finais do Ensino Fundamental; Ensino Médio; EJA"
+  }
+}, {
+  "nome" : "ROSA TOMITA PROFA EMEF",
+  "codigo" : "35084621",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "AYRTON SENNA DA SILVA, 90, RUA",
+    "bairro" : "JARDIM SAO JOSE II",
+    "cep" : "12248-678",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "700",
+    "Matrículas em tempo integral [strHint002]" : "410",
+    "Turmas [strHint003]" : "26",
+    "Turmas multi [strHint004]" : "2",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "32",
+    "Docentes" : "56",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "23",
+    "Total de funcionários [strHint008]" : "71",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 3",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 5",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; EJA"
+  }
+}, {
+  "nome" : "JULIA BERNARDES RODRIGUES PROFESSORA",
+  "codigo" : "35901568",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "CRISTOVAO SAO, 843, AVENIDA",
+    "bairro" : "JARDIM SAO JUDAS TADEU",
+    "cep" : "12228-260",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "630",
+    "Matrículas em tempo integral [strHint002]" : "13",
+    "Turmas [strHint003]" : "20",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "20",
+    "Docentes" : "24",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "41",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "MARIA AMELIA WAKAMATSU PROFA EMEF",
+  "codigo" : "35074925",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "VIRGILIO FERNANDES DE OLIVEIRA, 31, RUA",
+    "bairro" : "CAMPOS DE SAO JOSE",
+    "cep" : "12226-690",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1097",
+    "Matrículas em tempo integral [strHint002]" : "53",
+    "Turmas [strHint003]" : "32",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "16",
+    "Docentes" : "41",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "6",
+    "Total de funcionários [strHint008]" : "50",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "XENOFONTE STRABAO DE CASTRO PROFESSOR",
+  "codigo" : "35917266",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "ABELARDO ALVES DE PAIVA, 53, RUA",
+    "bairro" : "JARDIM SANTA INES I",
+    "cep" : "12248-490",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1246",
+    "Matrículas em tempo integral [strHint002]" : "99",
+    "Turmas [strHint003]" : "40",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "3",
+    "Salas de aula [strHint006]" : "16",
+    "Docentes" : "58",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "1",
+    "Total de funcionários [strHint008]" : "112",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 3",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 5",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "ILGA PUSPLATAIS PROFA EMEF",
+  "codigo" : "35436999",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "UBERLANDIA, 465, RUA",
+    "bairro" : "JARDIM ISMENIA",
+    "cep" : "12220-690",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "752",
+    "Matrículas em tempo integral [strHint002]" : "25",
+    "Turmas [strHint003]" : "25",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "21",
+    "Docentes" : "29",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "8",
+    "Total de funcionários [strHint008]" : "59",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "RUTH COUTINHO SOBREIRO PROFESSORA",
+  "codigo" : "35902548",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "JOSE ALVES DE PAIVA, 530, RUA",
+    "bairro" : "JARDIM SANTA INES II",
+    "cep" : "12248-511",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1111",
+    "Matrículas em tempo integral [strHint002]" : "33",
+    "Turmas [strHint003]" : "36",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "3",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "48",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "93",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 5",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "MARIA AUGUSTA MOREIRA DA COSTA PROFA EMEF",
+  "codigo" : "35447535",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "RUA DOS CANINDES, SN, RUA",
+    "bairro" : "JARDIM UIRA",
+    "cep" : "12227-621",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "546",
+    "Matrículas em tempo integral [strHint002]" : "20",
+    "Turmas [strHint003]" : "19",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "10",
+    "Docentes" : "25",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "14",
+    "Total de funcionários [strHint008]" : "50",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "MARTHA ABIB CASTANHO PROFESSORA EMEF",
+  "codigo" : "35463814",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "LEBLON, 60, RUA",
+    "bairro" : "JARDIM SATELITE",
+    "cep" : "12230-021",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "299",
+    "Matrículas em tempo integral [strHint002]" : "227",
+    "Turmas [strHint003]" : "10",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "14",
+    "Docentes" : "13",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "4",
+    "Total de funcionários [strHint008]" : "50",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 1",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "RUTH NUNES DA TRINDADE PROFA EMEF",
+  "codigo" : "35271299",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "WALDEMAR TEIXEIRA, 900, RUA",
+    "bairro" : "JARDIM TORRAO DE OURO",
+    "cep" : "12229-010",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1260",
+    "Matrículas em tempo integral [strHint002]" : "45",
+    "Turmas [strHint003]" : "39",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "25",
+    "Docentes" : "47",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "10",
+    "Total de funcionários [strHint008]" : "61",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "JOAO FERREIRA DOS SANTOS PROFESSOR",
+  "codigo" : "35916304",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "QUINZE DE OUTUBRO, 80, RUA",
+    "bairro" : "JARDIM DAS CEREJEIRAS",
+    "cep" : "12225-500",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "936",
+    "Matrículas em tempo integral [strHint002]" : "44",
+    "Turmas [strHint003]" : "32",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "16",
+    "Docentes" : "42",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "2",
+    "Total de funcionários [strHint008]" : "76",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "ALCEU MAYNARD ARAUJO PROFESSOR",
+  "codigo" : "35013481",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "MIOSOTIS, 75, RUA",
+    "bairro" : "JARDIM MOTORAMA",
+    "cep" : "12224-100",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1501",
+    "Matrículas em tempo integral [strHint002]" : "60",
+    "Turmas [strHint003]" : "43",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "3",
+    "Salas de aula [strHint006]" : "16",
+    "Docentes" : "54",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "93",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 6",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Finais do Ensino Fundamental; Ensino Médio; EJA"
+  }
+}, {
+  "nome" : "ARLETE ELOIZA FERREIRA TEIXEIRA PROFESSORA",
+  "codigo" : "35905112",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "ORLANDO SILVA, 35, RUA",
+    "bairro" : "JARDIM NOVA DETROIT",
+    "cep" : "12224-580",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "428",
+    "Matrículas em tempo integral [strHint002]" : "8",
+    "Turmas [strHint003]" : "16",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "8",
+    "Docentes" : "24",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "44",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "MARIA GOMIDE SANTOS DE SOUZA PROFESSORA",
+  "codigo" : "35919731",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "ZELIA ALBUQUERQUE DOS SANTOS, 452, RUA",
+    "bairro" : "CIDADE MORUMBI",
+    "cep" : "12236-680",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "592",
+    "Matrículas em tempo integral [strHint002]" : "6",
+    "Turmas [strHint003]" : "20",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "10",
+    "Docentes" : "25",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "45",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "EMEF EMMANUEL ANTONIO DOS SANTOS",
+  "codigo" : "35581297",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "RUA DAS CEREJAS, 150, RUA",
+    "bairro" : "RESIDENCIAL FREI GALVAO",
+    "cep" : "12248-701",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "305",
+    "Matrículas em tempo integral [strHint002]" : "30",
+    "Turmas [strHint003]" : "13",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "22",
+    "Docentes" : "19",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "3",
+    "Total de funcionários [strHint008]" : "24",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "--",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "ELZA REGINA FERREIRA BEVILACQUA PROFA EMEF",
+  "codigo" : "35090050",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "BRENO DE MOURA, SN, RUA",
+    "bairro" : "JARDIM ESTORIL",
+    "cep" : "12232-040",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "724",
+    "Matrículas em tempo integral [strHint002]" : "22",
+    "Turmas [strHint003]" : "25",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "1",
+    "Salas de aula [strHint006]" : "15",
+    "Docentes" : "33",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "16",
+    "Total de funcionários [strHint008]" : "67",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 4",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "FELICIO SAVASTANO PROFESSOR",
+  "codigo" : "35013547",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "RUA CAPITAO RAUL FAGUNDES, 341, RUA",
+    "bairro" : "MONTE CASTELO",
+    "cep" : "12215-030",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "364",
+    "Matrículas em tempo integral [strHint002]" : "11",
+    "Turmas [strHint003]" : "14",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "7",
+    "Docentes" : "17",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "30",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 5",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "LOURDES MARIA DE CAMARGO PROFESSORA",
+  "codigo" : "35037837",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "AVENIDA DOM PEDRO I, 341, AVENIDA",
+    "bairro" : "JARDIM IMPERIAL",
+    "cep" : "12234-010",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "1239",
+    "Matrículas em tempo integral [strHint002]" : "51",
+    "Turmas [strHint003]" : "45",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "3",
+    "Salas de aula [strHint006]" : "18",
+    "Docentes" : "60",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "1",
+    "Total de funcionários [strHint008]" : "101",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 5",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental; Ensino Médio"
+  }
+}, {
+  "nome" : "MARIA NAZARETH DE MOURA VERONESE PROFA EMEF",
+  "codigo" : "35056807",
+  "depAdministrativa" : "Municipal",
+  "endereco" : {
+    "endereco" : "COLUMBA, 45, PRACA",
+    "bairro" : "JARDIM DA GRANJA",
+    "cep" : "12227-510",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "748",
+    "Matrículas em tempo integral [strHint002]" : "26",
+    "Turmas [strHint003]" : "25",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "13",
+    "Docentes" : "36",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "8",
+    "Total de funcionários [strHint008]" : "50",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 3",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental; Anos Finais do Ensino Fundamental"
+  }
+}, {
+  "nome" : "ADELIA CHUCRI NEME",
+  "codigo" : "35046826",
+  "depAdministrativa" : "Estadual",
+  "endereco" : {
+    "endereco" : "AVENIDA PRESIDENTE JUSCELINO KUBITSCHEK, 6701, AVENIDA",
+    "bairro" : "VILA INDUSTRIAL",
+    "cep" : "12220-000",
+    "municipio" : "São José dos Campos",
+    "uf" : "São Paulo",
+    "localizacao" : "Urbana",
+    "locDiferenciada" : "Não Se Aplica"
+  },
+  "complexGestaoEscolar" : {
+    "Matrículas [strHint001]" : "207",
+    "Matrículas em tempo integral [strHint002]" : "4",
+    "Turmas [strHint003]" : "10",
+    "Turmas multi [strHint004]" : "0",
+    "Turnos de funcionamento [strHint005]" : "2",
+    "Salas de aula [strHint006]" : "6",
+    "Docentes" : "17",
+    "AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]" : "0",
+    "Total de funcionários [strHint008]" : "38",
+    "Indicador de Nível Socioeconômico – INSE [strHint009]" : "Grupo 4",
+    "Indicador de Complexidade de gestão [strHint010]" : "Nível 2",
+    "ModalidadesZZZ Etapas oferecidas [strHint011]" : "Anos Iniciais do Ensino Fundamental"
+  }
+} ]
+
