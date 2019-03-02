@@ -1,44 +1,44 @@
-package com.sjcdigital.sjcedu.robot.entities;
+package com.sjcdigital.sjcedu.robot.model.pojos.impl;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sjcdigital.sjcedu.robot.model.entities.ComplexGestaoEscolar;
+import com.sjcdigital.sjcedu.robot.model.pojos.Pojo;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
-public class ComplexidadeGestaoEscolar {
+public class ComplexGestaoEscolarPojo implements Pojo {
 
 	@JsonProperty("Matrículas [strHint001]")
 	private String matriculas;
-	
+
 	@JsonProperty("Matrículas em tempo integral [strHint002]")
 	private String matriculasTempoIntegral;
-	
+
 	@JsonProperty("Turmas [strHint003]")
 	private String turmas;
-	
+
 	@JsonProperty("Turmas multi [strHint004]")
 	private String turmasMulti;
-	
+
 	@JsonProperty("Turnos de funcionamento [strHint005]")
 	private String turnosFuncionamento;
-	
+
 	@JsonProperty("Salas de aula [strHint006]")
 	private String salasDeAula;
-	
+
 	@JsonProperty("Docentes")
 	private String docentes;
-	
+
 	@JsonProperty("AuxiliaresZZZ monitoresZZZ tradutores de Libras [strHint007]")
 	private String monitorLibras;
-	
+
 	@JsonProperty("Total de funcionários [strHint008]")
 	private String totalFuncionario;
-	
+
 	@JsonProperty("Indicador de Nível Socioeconômico – INSE [strHint009]")
 	private String inse;
-	
+
 	@JsonProperty("Indicador de Complexidade de gestão [strHint010]")
 	private String complexidadeGestao;
-	
+
 	@JsonProperty("ModalidadesZZZ Etapas oferecidas [strHint011]")
 	private String modalidades;
 
@@ -136,5 +136,13 @@ public class ComplexidadeGestaoEscolar {
 
 	public void setModalidades(String modalidades) {
 		this.modalidades = modalidades;
+	}
+	
+	@Override
+	public ComplexGestaoEscolar paraEntidade() {
+		
+		return new ComplexGestaoEscolar( matriculas, matriculasTempoIntegral, turmas, turmasMulti, turnosFuncionamento,
+				                         salasDeAula, docentes, monitorLibras, totalFuncionario, inse, complexidadeGestao, 
+				                         modalidades );
 	}
 }

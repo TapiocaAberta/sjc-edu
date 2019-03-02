@@ -1,4 +1,4 @@
-package com.sjcdigital.sjcedu.robot.entities;
+package com.sjcdigital.sjcedu.robot.model.entities;
 
 /**
  * 
