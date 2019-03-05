@@ -16,6 +16,7 @@ import org.jsoup.select.Elements;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sjcdigital.sjcedu.robot.model.entities.ComplexGestaoEscolar;
 import com.sjcdigital.sjcedu.robot.model.entities.Endereco;
@@ -25,7 +26,11 @@ import com.sjcdigital.sjcedu.robot.model.entities.InfraestruturaBasica;
 import com.sjcdigital.sjcedu.robot.model.entities.PraticaPedagogica;
 import com.sjcdigital.sjcedu.robot.model.pojos.impl.ComplexGestaoEscolarPojo;
 import com.sjcdigital.sjcedu.robot.model.pojos.impl.EspacoAprendizagemEquipPojo;
+import com.sjcdigital.sjcedu.robot.model.pojos.impl.IndicacaoAdequacaoFormacaoDocentePojo;
+import com.sjcdigital.sjcedu.robot.model.pojos.impl.IndicadorEsforcoDocentePojo;
 import com.sjcdigital.sjcedu.robot.model.pojos.impl.InfraestruturaBasicaPojo;
+import com.sjcdigital.sjcedu.robot.model.pojos.impl.MediaAlunoPorTurmaPojo;
+import com.sjcdigital.sjcedu.robot.model.pojos.impl.OrganizacaoPojo;
 import com.sjcdigital.sjcedu.robot.model.pojos.impl.PraticaPedagogicaPojo;
 import com.sjcdigital.sjcedu.robot.utils.RegexUtil;
 
@@ -66,6 +71,28 @@ public class IdebBot {
 		}
 		
 		return escolas;
+	}
+	
+	public void capturaDadosOrganizacao(String codigo) throws JsonParseException, JsonMappingException, IOException {
+		
+		Response response = retornaResponseDaConsulta(codigo, "escola/organizacao/");
+		ObjectMapper objMapper = new ObjectMapper();
+		JsonNode readTree = objMapper.readTree(response.readEntity(String.class));
+		
+		JsonNode firstJsonNode = readTree.get(0);
+		OrganizacaoPojo organizacaoPojo = objMapper.treeToValue(firstJsonNode, OrganizacaoPojo.class);
+		
+		JsonNode indicadorDeEsforco = firstJsonNode.get("Indicador do esforço docente");
+		organizacaoPojo.setEsforcoDocente(objMapper.treeToValue(indicadorDeEsforco, IndicadorEsforcoDocentePojo.class));
+		
+		JsonNode mediaAluno = firstJsonNode.get("Média de alunos por turma");
+		organizacaoPojo.setMediaAlunoPorTurma(objMapper.treeToValue(mediaAluno, MediaAlunoPorTurmaPojo.class));
+		
+		JsonNode secondJsonNode = readTree.get(1).get("Indicador de adequação da formação do docente [strHint020]");
+		organizacaoPojo.setIndicadorFormacaoDocente(objMapper.treeToValue(secondJsonNode, IndicacaoAdequacaoFormacaoDocentePojo.class));
+		
+		System.out.println(objMapper.writerWithDefaultPrettyPrinter().writeValueAsString(organizacaoPojo));
+		
 	}
 	
 	/**
