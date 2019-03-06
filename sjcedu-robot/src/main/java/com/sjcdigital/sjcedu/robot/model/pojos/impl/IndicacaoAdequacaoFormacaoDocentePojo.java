@@ -1,8 +1,10 @@
 package com.sjcdigital.sjcedu.robot.model.pojos.impl;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sjcdigital.sjcedu.robot.model.entities.IndicacaoAdequacaoFormacaoDocente;
+import com.sjcdigital.sjcedu.robot.model.pojos.Pojo;
 
-public class IndicacaoAdequacaoFormacaoDocentePojo {
+public class IndicacaoAdequacaoFormacaoDocentePojo implements Pojo {
 
 	@JsonProperty("Anos iniciais do Ensino Fundamental")
 	private AnosIniciaisEFPojo anosIniciais;
@@ -35,5 +37,10 @@ public class IndicacaoAdequacaoFormacaoDocentePojo {
 
 	public void setEnsinoMedio(EnsinoMedioPojo ensinoMedio) {
 		this.ensinoMedio = ensinoMedio;
+	}
+
+	@Override
+	public IndicacaoAdequacaoFormacaoDocente paraEntidade() {
+		return new IndicacaoAdequacaoFormacaoDocente(anosIniciais.paraEntidade(), anosFinais.paraEntidade(), ensinoMedio.paraEntidade());
 	}
 }

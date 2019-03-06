@@ -1,25 +1,22 @@
-package com.sjcdigital.sjcedu.robot.model.pojos.impl;
+package com.sjcdigital.sjcedu.robot.model.entities;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.sjcdigital.sjcedu.robot.model.entities.EnsinoMedio;
-import com.sjcdigital.sjcedu.robot.model.pojos.Pojo;
+public class Grupos {
 
-public class EnsinoMedioPojo implements Pojo {
-
-	@JsonProperty("Grupo 1[strHint035]")
 	private String grupo1;
-
-	@JsonProperty("Grupo 2[strHint036]")
 	private String grupo2;
-
-	@JsonProperty("Grupo 3[strHint037]")
 	private String grupo3;
-
-	@JsonProperty("Grupo 4[strHint038]")
 	private String grupo4;
-
-	@JsonProperty("Grupo 5[strHint039]")
 	private String grupo5;
+
+	public Grupos() {}
+
+	public Grupos(String grupo1, String grupo2, String grupo3, String grupo4, String grupo5) {
+		this.grupo1 = grupo1;
+		this.grupo2 = grupo2;
+		this.grupo3 = grupo3;
+		this.grupo4 = grupo4;
+		this.grupo5 = grupo5;
+	}
 
 	public String getGrupo1() {
 		return grupo1;
@@ -59,11 +56,6 @@ public class EnsinoMedioPojo implements Pojo {
 
 	public void setGrupo5(String grupo5) {
 		this.grupo5 = grupo5;
-	}
-
-	@Override
-	public EnsinoMedio paraEntidade() {
-		return new EnsinoMedio(grupo1, grupo2, grupo3, grupo4, grupo5);
 	}
 
 }

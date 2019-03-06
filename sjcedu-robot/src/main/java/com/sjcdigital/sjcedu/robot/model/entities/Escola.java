@@ -15,6 +15,8 @@ public class Escola {
 	private PraticaPedagogica praticaPedagogica;
 	private InfraestruturaBasica infraestruturaBasica;
 	private EspacoAprendizagemEquip EspacoAprendizagemEquip;
+	private Organizacao organizacao;
+	private Saeb saeb;
 
 	public String getNome() {
 		return nome;
@@ -78,6 +80,22 @@ public class Escola {
 
 	public void setEspacoAprendizagemEquip(EspacoAprendizagemEquip espacoAprendizagemEquip) {
 		EspacoAprendizagemEquip = espacoAprendizagemEquip;
+	}
+
+	public Organizacao getOrganizacao() {
+		return organizacao;
+	}
+
+	public void setOrganizacao(Organizacao organizacao) {
+		this.organizacao = organizacao;
+	}
+
+	public Saeb getSaeb() {
+		return saeb;
+	}
+
+	public void setSaeb(Saeb saeb) {
+		this.saeb = saeb;
 	}
 
 }

@@ -1,60 +1,51 @@
-package com.sjcdigital.sjcedu.robot.model.pojos.impl;
+package com.sjcdigital.sjcedu.robot.model.entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.sjcdigital.sjcedu.robot.model.entities.Organizacao;
-import com.sjcdigital.sjcedu.robot.model.pojos.Pojo;
+public class Organizacao {
 
-@JsonIgnoreProperties(ignoreUnknown = true)
-public class OrganizacaoPojo implements Pojo {
-
-	@JsonProperty("Indicador do esforço docente")
-	private IndicadorEsforcoDocentePojo esforcoDocente;
-
-	@JsonProperty("Média de alunos por turma")
-	private MediaAlunoPorTurmaPojo mediaAlunoPorTurma;
-
-	@JsonProperty("Indicador de adequação da formação do docente [strHint020]")
-	private IndicacaoAdequacaoFormacaoDocentePojo indicadorFormacaoDocente;
-
-	@JsonProperty("Alunos por computador [strHint018]")
+	private IndicadorEsforcoDocente esforcoDocente;
+	private MediaAlunoPorTurma mediaAlunoPorTurma;
+	private IndicacaoAdequacaoFormacaoDocente indicadorFormacaoDocente;
 	private String alunosPorComputador;
-
-	@JsonProperty("Computadores para uso administrativo")
 	private String compParaUsosAdm;
-
-	@JsonProperty("Participa do Mais Educação [strHint019]")
 	private String participaMaisEducacao;
-
-	@JsonProperty("Escola oferece atividades complementares")
 	private String ofereceAtivComplementares;
-
-	@JsonProperty("Escola abre nos finais de semana para a comunidade")
 	private String abreFinaisDeSemana;
-
-	@JsonProperty("Sala de professores")
 	private String salaProfessores;
-
-	@JsonProperty("Sala de secretaria")
 	private String salaSecretaria;
-
-	@JsonProperty("Sala de diretoria")
 	private String salaDiretoria;
-
-	@JsonProperty("Almoxarifado")
 	private String almoxarifado;
-
-	@JsonProperty("Refeitório")
 	private String refeitorio;
-
-	@JsonProperty("Destinação do lixo")
 	private String destinacaoLixo;
 
-	public IndicadorEsforcoDocentePojo getEsforcoDocente() {
+	public Organizacao() {}
+	
+	public Organizacao(IndicadorEsforcoDocente esforcoDocente, MediaAlunoPorTurma mediaAlunoPorTurma,
+			IndicacaoAdequacaoFormacaoDocente indicadorFormacaoDocente, String alunosPorComputador,
+			String compParaUsosAdm, String participaMaisEducacao, String ofereceAtivComplementares,
+			String abreFinaisDeSemana, String salaProfessores, String salaSecretaria, String salaDiretoria,
+			String almoxarifado, String refeitorio, String destinacaoLixo) {
+		
+		this.esforcoDocente = esforcoDocente;
+		this.mediaAlunoPorTurma = mediaAlunoPorTurma;
+		this.indicadorFormacaoDocente = indicadorFormacaoDocente;
+		this.alunosPorComputador = alunosPorComputador;
+		this.compParaUsosAdm = compParaUsosAdm;
+		this.participaMaisEducacao = participaMaisEducacao;
+		this.ofereceAtivComplementares = ofereceAtivComplementares;
+		this.abreFinaisDeSemana = abreFinaisDeSemana;
+		this.salaProfessores = salaProfessores;
+		this.salaSecretaria = salaSecretaria;
+		this.salaDiretoria = salaDiretoria;
+		this.almoxarifado = almoxarifado;
+		this.refeitorio = refeitorio;
+		this.destinacaoLixo = destinacaoLixo;
+	}
+
+	public IndicadorEsforcoDocente getEsforcoDocente() {
 		return esforcoDocente;
 	}
 
-	public void setEsforcoDocente(IndicadorEsforcoDocentePojo esforcoDocente) {
+	public void setEsforcoDocente(IndicadorEsforcoDocente esforcoDocente) {
 		this.esforcoDocente = esforcoDocente;
 	}
 
@@ -146,27 +137,19 @@ public class OrganizacaoPojo implements Pojo {
 		this.destinacaoLixo = destinacaoLixo;
 	}
 
-	public MediaAlunoPorTurmaPojo getMediaAlunoPorTurma() {
+	public MediaAlunoPorTurma getMediaAlunoPorTurma() {
 		return mediaAlunoPorTurma;
 	}
 
-	public void setMediaAlunoPorTurma(MediaAlunoPorTurmaPojo mediaAlunoPorTurma) {
+	public void setMediaAlunoPorTurma(MediaAlunoPorTurma mediaAlunoPorTurma) {
 		this.mediaAlunoPorTurma = mediaAlunoPorTurma;
 	}
 
-	public IndicacaoAdequacaoFormacaoDocentePojo getIndicadorFormacaoDocente() {
+	public IndicacaoAdequacaoFormacaoDocente getIndicadorFormacaoDocente() {
 		return indicadorFormacaoDocente;
 	}
 
-	public void setIndicadorFormacaoDocente(IndicacaoAdequacaoFormacaoDocentePojo indicadorFormacaoDocente) {
+	public void setIndicadorFormacaoDocente(IndicacaoAdequacaoFormacaoDocente indicadorFormacaoDocente) {
 		this.indicadorFormacaoDocente = indicadorFormacaoDocente;
-	}
-
-	@Override
-	public Organizacao paraEntidade() {
-		return new Organizacao(esforcoDocente.paraEntidade(), mediaAlunoPorTurma.paraEntidade(),
-				indicadorFormacaoDocente.paraEntidade(), alunosPorComputador, compParaUsosAdm, participaMaisEducacao,
-				ofereceAtivComplementares, abreFinaisDeSemana, salaProfessores, salaSecretaria, salaDiretoria,
-				almoxarifado, refeitorio, destinacaoLixo);
 	}
 }

@@ -23,7 +23,11 @@ import com.sjcdigital.sjcedu.robot.model.entities.Endereco;
 import com.sjcdigital.sjcedu.robot.model.entities.Escola;
 import com.sjcdigital.sjcedu.robot.model.entities.EspacoAprendizagemEquip;
 import com.sjcdigital.sjcedu.robot.model.entities.InfraestruturaBasica;
+import com.sjcdigital.sjcedu.robot.model.entities.Organizacao;
 import com.sjcdigital.sjcedu.robot.model.entities.PraticaPedagogica;
+import com.sjcdigital.sjcedu.robot.model.entities.ResultadoSaeb;
+import com.sjcdigital.sjcedu.robot.model.entities.ResultadosSaeb;
+import com.sjcdigital.sjcedu.robot.model.entities.Saeb;
 import com.sjcdigital.sjcedu.robot.model.pojos.impl.ComplexGestaoEscolarPojo;
 import com.sjcdigital.sjcedu.robot.model.pojos.impl.EspacoAprendizagemEquipPojo;
 import com.sjcdigital.sjcedu.robot.model.pojos.impl.IndicacaoAdequacaoFormacaoDocentePojo;
@@ -65,6 +69,8 @@ public class IdebBot {
 				escola.setPraticaPedagogica(capturaPraticaPedagogica(codigo));
 				escola.setInfraestruturaBasica(capturaInfraestruturaBasica(codigo));
 				escola.setEspacoAprendizagemEquip(capturaEspacoAprendizagemEquip(codigo));
+				escola.setOrganizacao(capturaDadosOrganizacao(codigo));
+				escola.setSaeb(capturaDadosSaeb(codigo));
 				
 				escolas.add(escola);
 			}
@@ -73,7 +79,70 @@ public class IdebBot {
 		return escolas;
 	}
 	
-	public void capturaDadosOrganizacao(String codigo) throws JsonParseException, JsonMappingException, IOException {
+	/**
+	 * 
+	 * @param codigo
+	 * @return
+	 * @throws JsonParseException
+	 * @throws JsonMappingException
+	 * @throws IOException
+	 */
+	private Saeb capturaDadosSaeb(final String codigo) throws JsonParseException, JsonMappingException, IOException {
+		
+		Response response = retornaResponseDaConsulta(codigo, "escola/provaBrasil/");
+		
+		ObjectMapper objMapper = new ObjectMapper();
+		JsonNode readTree = objMapper.readTree(response.readEntity(String.class));
+		Saeb saeb = new Saeb();
+		
+		saeb.setAnosIniciaisSaeb(caputuraDadosSaebNode(readTree.get("Anos iniciais do ensino fundamental")));
+		saeb.setAnosFinaisSaeb(caputuraDadosSaebNode(readTree.get("Anos finais do ensino fundamental")));
+		saeb.setEnisnoMedioSaeb(caputuraDadosSaebNode(readTree.get("Ensino Médio")));
+		
+		return saeb;
+	}
+	
+	/**
+	 * 
+	 * @param node
+	 * @return
+	 */
+	private ResultadosSaeb caputuraDadosSaebNode(final JsonNode node) {
+		
+		ResultadosSaeb resultadosSaeb = new ResultadosSaeb();
+		
+		resultadosSaeb.setTotal(capturaResultadoSaeb(node.get(2)));
+		resultadosSaeb.setPercTempoIntegral(capturaResultadoSaeb(node.get(3)));
+		resultadosSaeb.setIdadeMedia(capturaResultadoSaeb(node.get(4)));
+		resultadosSaeb.setPercIncluidos(capturaResultadoSaeb(node.get(5)));
+		resultadosSaeb.setPercNaoAprovados(capturaResultadoSaeb(node.get(6)));
+		
+		return resultadosSaeb;
+	}
+	
+	/**
+	 * 
+	 * @param jsonNode
+	 * @return
+	 */
+	private ResultadoSaeb capturaResultadoSaeb(JsonNode jsonNode) {
+		
+		ResultadoSaeb resultado = new ResultadoSaeb();
+		resultado.setMatriculados(jsonNode.get(1).asText());
+		resultado.setParticipantes(jsonNode.get(2).asText());
+		
+		return resultado;
+	}
+
+	/**
+	 * 
+	 * @param codigo
+	 * @return
+	 * @throws JsonParseException
+	 * @throws JsonMappingException
+	 * @throws IOException
+	 */
+	private Organizacao capturaDadosOrganizacao(String codigo) throws JsonParseException, JsonMappingException, IOException {
 		
 		Response response = retornaResponseDaConsulta(codigo, "escola/organizacao/");
 		ObjectMapper objMapper = new ObjectMapper();
@@ -91,7 +160,7 @@ public class IdebBot {
 		JsonNode secondJsonNode = readTree.get(1).get("Indicador de adequação da formação do docente [strHint020]");
 		organizacaoPojo.setIndicadorFormacaoDocente(objMapper.treeToValue(secondJsonNode, IndicacaoAdequacaoFormacaoDocentePojo.class));
 		
-		System.out.println(objMapper.writerWithDefaultPrettyPrinter().writeValueAsString(organizacaoPojo));
+		return organizacaoPojo.paraEntidade();
 		
 	}
 	

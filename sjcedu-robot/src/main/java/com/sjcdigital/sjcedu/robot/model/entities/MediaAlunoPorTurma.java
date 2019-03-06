@@ -1,22 +1,20 @@
-package com.sjcdigital.sjcedu.robot.model.pojos.impl;
+package com.sjcdigital.sjcedu.robot.model.entities;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.sjcdigital.sjcedu.robot.model.entities.MediaAlunoPorTurma;
-import com.sjcdigital.sjcedu.robot.model.pojos.Pojo;
+public class MediaAlunoPorTurma {
 
-public class MediaAlunoPorTurmaPojo implements Pojo {
-
-	@JsonProperty("Educação infantil")
 	private String educacaoInfantil;
-
-	@JsonProperty("Anos iniciais")
 	private String anosIniciais;
-
-	@JsonProperty("Anos finais")
 	private String anosFinais;
-
-	@JsonProperty("Ensino médio")
 	private String ensinoMedio;
+
+	public MediaAlunoPorTurma() {}
+	
+	public MediaAlunoPorTurma(String educacaoInfantil, String anosIniciais, String anosFinais, String ensinoMedio) {
+		this.educacaoInfantil = educacaoInfantil;
+		this.anosIniciais = anosIniciais;
+		this.anosFinais = anosFinais;
+		this.ensinoMedio = ensinoMedio;
+	}
 
 	public String getEducacaoInfantil() {
 		return educacaoInfantil;
@@ -48,11 +46,6 @@ public class MediaAlunoPorTurmaPojo implements Pojo {
 
 	public void setEnsinoMedio(String ensinoMedio) {
 		this.ensinoMedio = ensinoMedio;
-	}
-
-	@Override
-	public MediaAlunoPorTurma paraEntidade() {
-		return new MediaAlunoPorTurma(educacaoInfantil, anosIniciais, anosFinais, ensinoMedio);
 	}
 
 }

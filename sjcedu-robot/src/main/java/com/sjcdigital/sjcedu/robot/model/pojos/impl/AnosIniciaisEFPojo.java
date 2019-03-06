@@ -1,8 +1,10 @@
 package com.sjcdigital.sjcedu.robot.model.pojos.impl;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sjcdigital.sjcedu.robot.model.entities.AnosIniciaisEF;
+import com.sjcdigital.sjcedu.robot.model.pojos.Pojo;
 
-public class AnosIniciaisEFPojo {
+public class AnosIniciaisEFPojo implements Pojo {
 
 	@JsonProperty("Grupo 1[strHint021]")
 	private String grupo1;
@@ -57,6 +59,11 @@ public class AnosIniciaisEFPojo {
 
 	public void setGrupo5(String grupo5) {
 		this.grupo5 = grupo5;
+	}
+
+	@Override
+	public AnosIniciaisEF paraEntidade() {
+		return new AnosIniciaisEF(grupo1, grupo2, grupo3, grupo4, grupo5);
 	}
 
 }
