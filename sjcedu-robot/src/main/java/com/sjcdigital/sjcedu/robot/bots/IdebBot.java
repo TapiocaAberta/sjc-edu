@@ -1,7 +1,6 @@
 package com.sjcdigital.sjcedu.robot.bots;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -9,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.MediaType;
@@ -55,6 +55,7 @@ import com.sjcdigital.sjcedu.robot.utils.RegexUtil;
  * PT: Classe responsável por pegar os dados do site do IDEB  http://idebescola.inep.gov.br/ideb/         
  * EN: Class responsible to go towards the IDEB site http://idebescola.inep.gov.br/ideb/ and get the informations
  */
+@ApplicationScoped
 public class IdebBot {
 	
 	private final String IDEB_URL = "http://idebescola.inep.gov.br/ideb/";
@@ -65,16 +66,17 @@ public class IdebBot {
 	 * @return
 	 * @throws IOException
 	 */
-	public List<Escola> capturaDadosEscola() throws IOException {
-		
-		List<String> linksDasEscolas = capturaLinksDasEscolas();
-		
-		return linksDasEscolas.stream()
-		               .filter(link -> link != null && !link.trim().isEmpty())
-		               .map(this::pegaPaginaEscola)
-		               .map(this::capturaDetalhesEscola)
-		               .peek(this::preencheDadosEscola)
-                       .collect(Collectors.toList());
+	public List<Escola> capturaDadosEscola() {
+		try {
+            return capturaLinksDasEscolas().stream()
+                           .filter(link -> link != null && !link.trim().isEmpty())
+                           .map(this::pegaPaginaEscola)
+                           .map(this::capturaDetalhesEscola)
+                           .peek(this::preencheDadosEscola)
+                           .collect(Collectors.toList());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 	}
 
     private void preencheDadosEscola(Escola escola)  {

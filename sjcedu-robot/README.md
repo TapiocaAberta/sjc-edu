@@ -15,7 +15,11 @@ Na pasta do projeto executar o seguinte comando:
 
 `mvn thorntail:run`
 
-Depois vá até: http://localhost:8080/hello
+Depois vá até: `http://localhost:8080/hello` para certificar que o serviço está em execução.
+
+Os endpoints disponíveis são:
+
+* **ideb/escolas**: Executa o scrapping dos dados. Levará alguns minutos na primeira execução.
 
 Links:
 
