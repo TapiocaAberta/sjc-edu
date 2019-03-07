@@ -1,13 +1,14 @@
 package com.sjcdigital.sjcedu.robot.bots;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.MediaType;
@@ -54,6 +55,7 @@ import com.sjcdigital.sjcedu.robot.utils.RegexUtil;
  * PT: Classe responsável por pegar os dados do site do IDEB  http://idebescola.inep.gov.br/ideb/         
  * EN: Class responsible to go towards the IDEB site http://idebescola.inep.gov.br/ideb/ and get the informations
  */
+@ApplicationScoped
 public class IdebBot {
 	
 	private final String IDEB_URL = "http://idebescola.inep.gov.br/ideb/";
@@ -64,32 +66,33 @@ public class IdebBot {
 	 * @return
 	 * @throws IOException
 	 */
-	public List<Escola> capturaDadosEscola() throws IOException {
-		
-		List<String> linksDasEscolas = capturaLinksDasEscolas();
-		List<Escola> escolas = new ArrayList<>();
-		
-		for (String link : linksDasEscolas) {
-			if(link != null && !link.trim().isEmpty()) {
-				
-				Element body = pegaPaginaEscola(link);
-				Escola escola = capturaDetalhesEscola(body);
-				String codigo = escola.getCodigo();
-				
-				escola.setComplexGestaoEscolar(capturaComplexGestaoEscolar(codigo));
-				escola.setPraticaPedagogica(capturaPraticaPedagogica(codigo));
-				escola.setInfraestruturaBasica(capturaInfraestruturaBasica(codigo));
-				escola.setEspacoAprendizagemEquip(capturaEspacoAprendizagemEquip(codigo));
-				escola.setOrganizacao(capturaDadosOrganizacao(codigo));
-				escola.setParticipacaoSaeb(capturaParticipacaoSaeb(codigo));
-				escola.setIdebValores(capturaDadosIdeb(codigo));
-				
-				escolas.add(escola);
-			}
-		}
-		
-		return escolas;
+	public List<Escola> capturaDadosEscola() {
+		try {
+            return capturaLinksDasEscolas().stream()
+                           .filter(link -> link != null && !link.trim().isEmpty())
+                           .map(this::pegaPaginaEscola)
+                           .map(this::capturaDetalhesEscola)
+                           .peek(this::preencheDadosEscola)
+                           .collect(Collectors.toList());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 	}
+
+    private void preencheDadosEscola(Escola escola)  {
+        try {
+            String codigo = escola.getCodigo();
+	    escola.setComplexGestaoEscolar(capturaComplexGestaoEscolar(codigo));
+	    escola.setPraticaPedagogica(capturaPraticaPedagogica(codigo));
+	    escola.setInfraestruturaBasica(capturaInfraestruturaBasica(codigo));
+	    escola.setEspacoAprendizagemEquip(capturaEspacoAprendizagemEquip(codigo));
+	    escola.setOrganizacao(capturaDadosOrganizacao(codigo));
+	    escola.setParticipacaoSaeb(capturaParticipacaoSaeb(codigo));
+	    escola.setIdebValores(capturaDadosIdeb(codigo));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 	
 	/**
 	 * 
@@ -439,11 +442,15 @@ public class IdebBot {
 	 * @return
 	 * @throws IOException
 	 */
-	private Element pegaPaginaEscola(String link) throws IOException {
-		Document doc = Jsoup.connect(IDEB_URL + link)
-				            .timeout(10 * 1000)
-							.get();
-		return doc.body();
+	private Element pegaPaginaEscola(String link) {
+		try {
+            Document doc = Jsoup.connect(IDEB_URL + link)
+            		            .timeout(10 * 1000)
+            					.get();
+            return doc.body();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 	}
 
 	/**
@@ -453,7 +460,6 @@ public class IdebBot {
 	 */
 	private List<String> capturaLinksDasEscolas() throws IOException {
 		
-		List<String> links = new ArrayList<>();
 		
 		Document doc = Jsoup.connect(IDEB_URL + "consulta-publica")
 				  			.data("pkCodEstado", "35")
@@ -461,12 +467,12 @@ public class IdebBot {
 				  			.timeout(3000)
 				  			.post();
 		
-		Elements table = doc.select("table");
-		Elements rows = table.select("tr");
-		
-		rows.forEach(element -> links.add(RegexUtil.removerAspas(element.attr("onclick"))));
-		
-		return links;
+		return doc.select("table")
+		          .select("tr")
+		          .stream()
+        		  .map(el -> el.attr("onclick"))
+        		  .map(RegexUtil::removerAspas)
+        		  .collect(Collectors.toList());
 	}
 	
 }
