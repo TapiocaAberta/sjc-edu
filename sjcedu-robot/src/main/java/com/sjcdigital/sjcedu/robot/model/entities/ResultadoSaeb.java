@@ -1,24 +1,31 @@
 package com.sjcdigital.sjcedu.robot.model.entities;
 
 public class ResultadoSaeb {
+
+	private String proficienciaMedia;
+	private String proficienciaPadronizada;
 	
-	private String matriculados;
-	private String participantes;
-
-	public String getMatriculados() {
-		return matriculados;
-	}
-
-	public void setMatriculados(String matriculados) {
-		this.matriculados = matriculados;
-	}
-
-	public String getParticipantes() {
-		return participantes;
-	}
-
-	public void setParticipantes(String participantes) {
-		this.participantes = participantes;
-	}
+	public ResultadoSaeb() {}
 	
+	public ResultadoSaeb(String proficienciaMedia, String proficienciaPadronizada) {
+		this.proficienciaMedia = proficienciaMedia;
+		this.proficienciaPadronizada = proficienciaPadronizada;
+	}
+
+	public String getProficienciaMedia() {
+		return proficienciaMedia;
+	}
+
+	public void setProficienciaMedia(String proficienciaMedia) {
+		this.proficienciaMedia = proficienciaMedia;
+	}
+
+	public String getProficienciaPadronizada() {
+		return proficienciaPadronizada;
+	}
+
+	public void setProficienciaPadronizada(String proficienciaPadronizada) {
+		this.proficienciaPadronizada = proficienciaPadronizada;
+	}
+
 }

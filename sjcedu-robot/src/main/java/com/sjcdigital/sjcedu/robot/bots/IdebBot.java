@@ -2,7 +2,11 @@ package com.sjcdigital.sjcedu.robot.bots;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -18,16 +22,23 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sjcdigital.sjcedu.robot.model.entities.Aprovacoes;
 import com.sjcdigital.sjcedu.robot.model.entities.ComplexGestaoEscolar;
 import com.sjcdigital.sjcedu.robot.model.entities.Endereco;
 import com.sjcdigital.sjcedu.robot.model.entities.Escola;
 import com.sjcdigital.sjcedu.robot.model.entities.EspacoAprendizagemEquip;
+import com.sjcdigital.sjcedu.robot.model.entities.Ideb;
+import com.sjcdigital.sjcedu.robot.model.entities.IdebValores;
+import com.sjcdigital.sjcedu.robot.model.entities.Indice;
 import com.sjcdigital.sjcedu.robot.model.entities.InfraestruturaBasica;
 import com.sjcdigital.sjcedu.robot.model.entities.Organizacao;
+import com.sjcdigital.sjcedu.robot.model.entities.ParticipacaoSaeb;
 import com.sjcdigital.sjcedu.robot.model.entities.PraticaPedagogica;
+import com.sjcdigital.sjcedu.robot.model.entities.ResultadoParticipacaoSaeb;
 import com.sjcdigital.sjcedu.robot.model.entities.ResultadoSaeb;
-import com.sjcdigital.sjcedu.robot.model.entities.ResultadosSaeb;
+import com.sjcdigital.sjcedu.robot.model.entities.ResultadosParticipacaoSaeb;
 import com.sjcdigital.sjcedu.robot.model.entities.Saeb;
+import com.sjcdigital.sjcedu.robot.model.entities.TaxaAprovacao;
 import com.sjcdigital.sjcedu.robot.model.pojos.impl.ComplexGestaoEscolarPojo;
 import com.sjcdigital.sjcedu.robot.model.pojos.impl.EspacoAprendizagemEquipPojo;
 import com.sjcdigital.sjcedu.robot.model.pojos.impl.IndicacaoAdequacaoFormacaoDocentePojo;
@@ -70,7 +81,8 @@ public class IdebBot {
 				escola.setInfraestruturaBasica(capturaInfraestruturaBasica(codigo));
 				escola.setEspacoAprendizagemEquip(capturaEspacoAprendizagemEquip(codigo));
 				escola.setOrganizacao(capturaDadosOrganizacao(codigo));
-				escola.setSaeb(capturaDadosSaeb(codigo));
+				escola.setParticipacaoSaeb(capturaParticipacaoSaeb(codigo));
+				escola.setIdebValores(capturaDadosIdeb(codigo));
 				
 				escolas.add(escola);
 			}
@@ -87,13 +99,167 @@ public class IdebBot {
 	 * @throws JsonMappingException
 	 * @throws IOException
 	 */
-	private Saeb capturaDadosSaeb(final String codigo) throws JsonParseException, JsonMappingException, IOException {
+	private IdebValores capturaDadosIdeb(final String codigo) throws JsonParseException, JsonMappingException, IOException {
+		Response response = retornaResponseDaConsulta(codigo, "escola/indiceDeDesenvolvimentoDaEducacaoBasica/");
+
+		ObjectMapper objMapper = new ObjectMapper();
+		JsonNode readTree = objMapper.readTree(response.readEntity(String.class));
+		
+		IdebValores ideb = new IdebValores();
+		
+		JsonNode anosIniciaisNode = readTree.get("Anos iniciais do ensino fundamental");
+		JsonNode anosFinaisNode = readTree.get("Anos finais do ensino fundamental");
+		JsonNode ensinoMedioNode = readTree.get("Ensino Médio");
+		
+		String taxaAprovacaoField = "Taxa de Aprovação";
+		String saebField = "Saeb";
+		String idebField = "Ideb";
+		
+		if(anosIniciaisNode != null) {
+			Map<String, Indice> anosIniciaisMap = montaHashComIndices(anosIniciaisNode);
+			preencheTaxaAprovacao(anosIniciaisMap, anosIniciaisNode.get(taxaAprovacaoField));
+			preencheDadosSaeb(anosIniciaisMap, anosIniciaisNode.get(saebField));
+			preencheDadosIdeb(anosIniciaisMap, anosIniciaisNode.get(idebField));
+			
+			ideb.setAnosIniciaisIdeb(anosIniciaisMap.values());
+		}
+		
+		if(anosFinaisNode != null) {
+			Map<String, Indice> anosFinaisMap = montaHashComIndices(anosFinaisNode);
+			preencheTaxaAprovacao(anosFinaisMap, anosFinaisNode.get(taxaAprovacaoField));
+			preencheDadosSaeb(anosFinaisMap, anosFinaisNode.get(saebField));
+			preencheDadosIdeb(anosFinaisMap, anosFinaisNode.get(idebField));
+			
+			ideb.setAnosFinaisIdeb(anosFinaisMap.values());
+		}
+		
+		if(ensinoMedioNode != null) {
+			Map<String, Indice> ensinoMedioMap = montaHashComIndices(ensinoMedioNode);
+			preencheTaxaAprovacao(ensinoMedioMap, ensinoMedioNode.get(taxaAprovacaoField));
+			preencheDadosSaeb(ensinoMedioMap, ensinoMedioNode.get(saebField));
+			preencheDadosIdeb(ensinoMedioMap, ensinoMedioNode.get(idebField));
+			
+			ideb.setEnsinoMedioIdeb(ensinoMedioMap.values());
+		}
+		
+		return ideb;
+	}
+	
+	private void preencheDadosIdeb(Map<String, Indice> indices, JsonNode node) {
+		
+		if (!indices.isEmpty()) {
+
+			for (Map.Entry<String, Indice> entry : indices.entrySet()) {
+
+				JsonNode taxasAno = node.get(entry.getKey());
+				
+				Ideb ideb = new Ideb();
+				ideb.setMeta(taxasAno.get(0).asText());
+				ideb.setValor(taxasAno.get(1).asText());
+				
+				entry.getValue().setIdeb(ideb);
+			}
+		}
+
+	}
+
+	/**
+	 * 
+	 * @param indices
+	 * @param node
+	 */
+	private void preencheDadosSaeb(Map<String, Indice> indices, final JsonNode node) {
+		
+		if (!indices.isEmpty()) {
+
+			for (Map.Entry<String, Indice> entry : indices.entrySet()) {
+
+				JsonNode taxasAno = node.get(entry.getKey());
+				
+				Saeb saeb = new Saeb();
+				saeb.setMatematica(new ResultadoSaeb(taxasAno.get(0).asText(), taxasAno.get(1).asText()));
+				saeb.setPortugues(new ResultadoSaeb(taxasAno.get(2).asText(), taxasAno.get(3).asText()));
+				saeb.setMedia(taxasAno.get(4).asText());
+				
+				entry.getValue().setSaeb(saeb);
+			}
+		}
+
+	}
+
+	/**
+	 * 
+	 * @param indices
+	 * @param node
+	 */
+	private void preencheTaxaAprovacao(Map<String, Indice> indices, final JsonNode node) {
+		
+		if(!indices.isEmpty()) {
+			
+			JsonNode anoNode = node.get("Ano");
+			
+			for (Map.Entry<String, Indice> entry : indices.entrySet()) {
+				
+				JsonNode taxasAno = node.get(entry.getKey());
+				
+				Aprovacoes aprovacoes = new Aprovacoes();
+				aprovacoes.setTaxaAprovacao(Arrays.asList( new TaxaAprovacao(anoNode.get(0).asText(), taxasAno.get(0).asText()), 
+														   new TaxaAprovacao(anoNode.get(1).asText(), taxasAno.get(1).asText()),
+														   new TaxaAprovacao(anoNode.get(2).asText(), taxasAno.get(2).asText()),
+														   new TaxaAprovacao(anoNode.get(3).asText(), taxasAno.get(3).asText())));
+				
+				aprovacoes.setIndicadorRendimento(taxasAno.get(4).asText());
+				
+				entry.getValue().setAprovacoes(aprovacoes);
+				
+			}
+			
+		}
+		
+	}
+	
+	/**
+	 * 
+	 * @param jsonNode
+	 * @return
+	 */
+	private Map<String, Indice> montaHashComIndices(JsonNode jsonNode) {
+		
+		Map<String, Indice> mapIndices = new HashMap<>();
+		
+		if(jsonNode != null) {
+			
+			Iterator<String> fieldNames = jsonNode.get("Taxa de Aprovação").fieldNames();
+			
+			while(fieldNames.hasNext()) {
+				
+				String fieldName = fieldNames.next();
+				
+				if(!"ano".equalsIgnoreCase(fieldName)) {
+					mapIndices.put(fieldName, new Indice(fieldName));
+				}
+			}
+		}
+		
+		return mapIndices;
+		
+	}
+
+	/**
+	 * 
+	 * @param codigo
+	 * @return
+	 * @throws JsonParseException
+	 * @throws JsonMappingException
+	 * @throws IOException
+	 */
+	private ParticipacaoSaeb capturaParticipacaoSaeb(final String codigo) throws JsonParseException, JsonMappingException, IOException {
 		
 		Response response = retornaResponseDaConsulta(codigo, "escola/provaBrasil/");
 		
 		ObjectMapper objMapper = new ObjectMapper();
 		JsonNode readTree = objMapper.readTree(response.readEntity(String.class));
-		Saeb saeb = new Saeb();
+		ParticipacaoSaeb saeb = new ParticipacaoSaeb();
 		
 		saeb.setAnosIniciaisSaeb(caputuraDadosSaebNode(readTree.get("Anos iniciais do ensino fundamental")));
 		saeb.setAnosFinaisSaeb(caputuraDadosSaebNode(readTree.get("Anos finais do ensino fundamental")));
@@ -107,9 +273,9 @@ public class IdebBot {
 	 * @param node
 	 * @return
 	 */
-	private ResultadosSaeb caputuraDadosSaebNode(final JsonNode node) {
+	private ResultadosParticipacaoSaeb caputuraDadosSaebNode(final JsonNode node) {
 		
-		ResultadosSaeb resultadosSaeb = new ResultadosSaeb();
+		ResultadosParticipacaoSaeb resultadosSaeb = new ResultadosParticipacaoSaeb();
 		
 		resultadosSaeb.setTotal(capturaResultadoSaeb(node.get(2)));
 		resultadosSaeb.setPercTempoIntegral(capturaResultadoSaeb(node.get(3)));
@@ -125,9 +291,9 @@ public class IdebBot {
 	 * @param jsonNode
 	 * @return
 	 */
-	private ResultadoSaeb capturaResultadoSaeb(JsonNode jsonNode) {
+	private ResultadoParticipacaoSaeb capturaResultadoSaeb(JsonNode jsonNode) {
 		
-		ResultadoSaeb resultado = new ResultadoSaeb();
+		ResultadoParticipacaoSaeb resultado = new ResultadoParticipacaoSaeb();
 		resultado.setMatriculados(jsonNode.get(1).asText());
 		resultado.setParticipantes(jsonNode.get(2).asText());
 		

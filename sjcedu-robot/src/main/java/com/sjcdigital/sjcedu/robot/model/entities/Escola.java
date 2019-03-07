@@ -16,7 +16,8 @@ public class Escola {
 	private InfraestruturaBasica infraestruturaBasica;
 	private EspacoAprendizagemEquip EspacoAprendizagemEquip;
 	private Organizacao organizacao;
-	private Saeb saeb;
+	private ParticipacaoSaeb participacaoSaeb;
+	private IdebValores idebValores;
 
 	public String getNome() {
 		return nome;
@@ -90,12 +91,21 @@ public class Escola {
 		this.organizacao = organizacao;
 	}
 
-	public Saeb getSaeb() {
-		return saeb;
+	public ParticipacaoSaeb getParticipacaoSaeb() {
+		return participacaoSaeb;
 	}
 
-	public void setSaeb(Saeb saeb) {
-		this.saeb = saeb;
+	public void setParticipacaoSaeb(ParticipacaoSaeb participacaoSaeb) {
+		this.participacaoSaeb = participacaoSaeb;
 	}
+
+	public IdebValores getIdebValores() {
+		return idebValores;
+	}
+
+	public void setIdebValores(IdebValores idebValores) {
+		this.idebValores = idebValores;
+	}
+
 
 }

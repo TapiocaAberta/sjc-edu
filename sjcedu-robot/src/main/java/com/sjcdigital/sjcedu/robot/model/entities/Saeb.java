@@ -2,32 +2,32 @@ package com.sjcdigital.sjcedu.robot.model.entities;
 
 public class Saeb {
 
-	private ResultadosSaeb anosIniciaisSaeb;
-	private ResultadosSaeb anosFinaisSaeb;
-	private ResultadosSaeb enisnoMedioSaeb;
+	private ResultadoSaeb matematica;
+	private ResultadoSaeb portugues;
+	private String media;
 
-	public ResultadosSaeb getAnosIniciaisSaeb() {
-		return anosIniciaisSaeb;
+	public ResultadoSaeb getMatematica() {
+		return matematica;
 	}
 
-	public void setAnosIniciaisSaeb(ResultadosSaeb anosIniciaisSaeb) {
-		this.anosIniciaisSaeb = anosIniciaisSaeb;
+	public void setMatematica(ResultadoSaeb matematica) {
+		this.matematica = matematica;
 	}
 
-	public ResultadosSaeb getAnosFinaisSaeb() {
-		return anosFinaisSaeb;
+	public ResultadoSaeb getPortugues() {
+		return portugues;
 	}
 
-	public void setAnosFinaisSaeb(ResultadosSaeb anosFinaisSaeb) {
-		this.anosFinaisSaeb = anosFinaisSaeb;
+	public void setPortugues(ResultadoSaeb portugues) {
+		this.portugues = portugues;
 	}
 
-	public ResultadosSaeb getEnisnoMedioSaeb() {
-		return enisnoMedioSaeb;
+	public String getMedia() {
+		return media;
 	}
 
-	public void setEnisnoMedioSaeb(ResultadosSaeb enisnoMedioSaeb) {
-		this.enisnoMedioSaeb = enisnoMedioSaeb;
+	public void setMedia(String media) {
+		this.media = media;
 	}
 
 }
